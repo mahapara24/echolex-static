@@ -7,7 +7,7 @@ const TermsOfService = () => {
       <div className="policy-page">
         <div className="policy-container">
           <h1>Terms of Service</h1>
-          <p className="policy-date">Last Updated: November 6, 2024</p>
+          <p className="policy-date">Last Updated: November 7, 2024</p>
         
         <section>
           <h2>1. Agreement to Terms</h2>
@@ -19,7 +19,7 @@ const TermsOfService = () => {
         <section>
           <h2>2. Description of Service</h2>
           <p>
-            Echolex provides real-time translation and language understanding services using artificial intelligence technology. Our Service enables users to translate and understand content in multiple languages.
+            Echolex is an audiobook platform that provides access to books narrated by professional voice artists in multiple languages. Our Service enables users to listen to audiobooks in their preferred language, with content available in English, Hindi, Urdu, and other languages.
           </p>
         </section>
 
@@ -45,12 +45,14 @@ const TermsOfService = () => {
           <p>You agree not to:</p>
           <ul>
             <li>Use the Service for any illegal purpose or in violation of any laws</li>
-            <li>Transmit any harmful, offensive, or inappropriate content</li>
-            <li>Attempt to gain unauthorized access to the Service</li>
-            <li>Interfere with or disrupt the Service or servers</li>
-            <li>Use automated systems to access the Service without permission</li>
-            <li>Reverse engineer, decompile, or disassemble the Service</li>
-            <li>Resell or redistribute the Service without authorization</li>
+            <li>Download, copy, record, or redistribute any audiobook content without authorization</li>
+            <li>Attempt to gain unauthorized access to the Service, user accounts, or content</li>
+            <li>Interfere with or disrupt the Service, servers, or networks</li>
+            <li>Use automated systems, bots, or scripts to access, download, or scrape content from the Service</li>
+            <li>Reverse engineer, decompile, disassemble, or attempt to extract source code from the Service</li>
+            <li>Resell, redistribute, or share your account credentials with others</li>
+            <li>Remove any copyright, trademark, or other proprietary notices from content</li>
+            <li>Use the Service in any manner that could damage, disable, overburden, or impair our servers or networks</li>
           </ul>
         </section>
 
@@ -60,7 +62,10 @@ const TermsOfService = () => {
             The Service and its original content, features, and functionality are owned by Echolex and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
           </p>
           <p>
-            You retain ownership of any content you submit through the Service. By using the Service, you grant us a license to use, process, and display your content solely for the purpose of providing translation services.
+            All audiobook content, including but not limited to audio recordings, narration, and associated materials, are protected by copyright and other intellectual property laws. You may not reproduce, distribute, modify, create derivative works, publicly display, publicly perform, republish, download, store, or transmit any of the material on our Service without prior written consent from the respective copyright holders.
+          </p>
+          <p>
+            You are granted a limited, non-exclusive, non-transferable license to access and use the Service for personal, non-commercial purposes only. This license does not include any resale or commercial use of the Service or its contents.
           </p>
         </section>
 
@@ -68,17 +73,22 @@ const TermsOfService = () => {
           <h2>6. Payment Terms</h2>
           <h3>6.1 Subscription Fees</h3>
           <p>
-            Some features of the Service may require payment. By subscribing, you agree to pay all fees associated with your subscription.
+            Some features of the Service may require payment. By subscribing, you agree to pay all fees associated with your subscription. Subscription fees are displayed in the app and may vary by region.
           </p>
 
           <h3>6.2 Billing</h3>
           <p>
-            Subscription fees are billed in advance on a recurring basis. You authorize us to charge your payment method for all applicable fees.
+            Subscription fees are billed in advance on a recurring basis (monthly or annually, as selected). You authorize us to charge your payment method (via App Store, Google Play, or other payment processors) for all applicable fees. Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period.
           </p>
 
-          <h3>6.3 Refunds</h3>
+          <h3>6.3 Cancellation</h3>
           <p>
-            Refund policies are subject to our discretion and may vary based on the subscription plan. Contact us at support@echolex.com for refund requests.
+            You may cancel your subscription at any time through your device's subscription settings (App Store or Google Play). Cancellation will take effect at the end of the current billing period, and you will retain access until that time.
+          </p>
+
+          <h3>6.4 Refunds</h3>
+          <p>
+            Refund requests are handled according to the policies of the App Store and Google Play Store. For subscriptions purchased through our app stores, refunds are subject to the respective store's refund policies. Contact us at support@echolex.com for assistance with refund requests.
           </p>
         </section>
 
@@ -90,9 +100,9 @@ const TermsOfService = () => {
         </section>
 
         <section>
-          <h2>8. Accuracy of Translations</h2>
+          <h2>8. Content Availability and Quality</h2>
           <p>
-            While we use advanced AI technology to provide accurate translations, we cannot guarantee 100% accuracy. Translations are provided "as is" and should not be used for critical legal, medical, or financial decisions without professional verification.
+            We strive to provide high-quality audiobook content narrated by professional voice artists. However, we cannot guarantee that all books will be available in all languages at all times. Content availability may vary, and we reserve the right to add, modify, or remove content from our library. While we ensure professional narration quality, individual preferences may vary.
           </p>
         </section>
 

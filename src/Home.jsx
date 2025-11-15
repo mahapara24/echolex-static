@@ -100,8 +100,7 @@ function Home() {
           </div>
           <div className="hero-right">
             <p className="hero-description">
-              Break down language barriers with Echolex. Real-time translation and understanding 
-              in any language, powered by cutting-edge AI technology. Connect with the world like never before.
+              This is Echolex. An ocean of knowledge, spoken in any language. This is how we make stories borderless.
             </p>
             <div className="hero-buttons">
               <button 
@@ -122,12 +121,8 @@ function Home() {
             </div>
             <div className="hero-languages">
               <span className="language-badge">🇺🇸 English</span>
+              <span className="language-badge">🇮🇳 Hindi</span>
               <span className="language-badge">🇵🇰 Urdu</span>
-              <span className="language-badge">🇪🇸 Español</span>
-              <span className="language-badge">🇫🇷 Français</span>
-              <span className="language-badge">🇩🇪 Deutsch</span>
-              <span className="language-badge">🇯🇵 日本語</span>
-              <span className="language-badge">+100 more</span>
             </div>
           </div>
         </div>
@@ -145,33 +140,33 @@ function Home() {
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">🌍</div>
-              <h3>Any Language</h3>
-              <p>Translate and understand conversations in over 100 languages instantly. No language barrier is too big.</p>
+              <h3>Books in Every Language</h3>
+              <p>Access a vast library of books available in multiple languages. Discover stories from around the world in English, Hindi, Urdu, and more.</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-icon">🎙️</div>
+              <h3>Human Narrated Audio</h3>
+              <p>All audiobooks are narrated by real people, ensuring natural and engaging storytelling that brings every story to life.</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-icon">📚</div>
+              <h3>Diverse Collection</h3>
+              <p>Explore thousands of books across all genres—fiction, non-fiction, classics, and contemporary works—in your preferred language.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">⚡</div>
-              <h3>Real-Time Translation</h3>
-              <p>Get instant translations as you listen. No delays, no waiting—just seamless understanding.</p>
-            </div>
-            <div className="feature-card">
-              <div className="feature-icon">🎯</div>
-              <h3>Accurate Understanding</h3>
-              <p>Powered by advanced AI that captures context, tone, and meaning—not just words.</p>
-            </div>
-            <div className="feature-card">
-              <div className="feature-icon">📱</div>
-              <h3>Works Everywhere</h3>
-              <p>Use Echolex on any device, anywhere. Your universal language companion.</p>
+              <h3>Smart Playback</h3>
+              <p>Adjust playback speed, set sleep timers, and bookmark your favorite moments. Your listening, your way.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">🔊</div>
-              <h3>Clear Audio</h3>
-              <p>Advanced audio processing ensures you hear every word clearly, even in noisy environments.</p>
+              <h3>High-Quality Audio</h3>
+              <p>Professional recording and audio processing ensure crystal-clear narration for the best listening experience, every time.</p>
             </div>
             <div className="feature-card">
-              <div className="feature-icon">💬</div>
-              <h3>Natural Conversations</h3>
-              <p>Maintain the flow of conversation with natural, context-aware translations that feel human.</p>
+              <div className="feature-icon">🎧</div>
+              <h3>Offline Listening</h3>
+              <p>Download your favorite books and listen anywhere, anytime, even without an internet connection. Perfect for commutes and travel.</p>
             </div>
           </div>
         </div>
@@ -184,14 +179,15 @@ function Home() {
             <div className="about-text">
               <h2 className="section-title">About Echolex</h2>
               <p>
-                Echolex breaks down language barriers. We've built the most advanced 
-                real-time translation and understanding platform that works in any language, 
-                anywhere, anytime.
+                Echolex is an ocean of knowledge, spoken in any language. We've built a platform 
+                that makes stories borderless, bringing you books narrated by real people in 
+                multiple languages.
               </p>
               <p>
-                Our mission is simple: help you listen, understand, and connect with anyone, 
-                regardless of language. Powered by cutting-edge AI, Echolex doesn't just translate 
-                words—it understands context, meaning, and nuance to deliver truly natural communication.
+                Our mission is simple: help you access knowledge and stories from around the world 
+                in your preferred language. Every audiobook is carefully narrated by professional 
+                voice artists, ensuring natural and engaging storytelling that captures the essence 
+                of each story.
               </p>
               <div className="stats">
                 <div className="stat">
@@ -221,12 +217,12 @@ function Home() {
       <section id="reviews" className="reviews">
         <div className="container">
           <h2 className="section-title">What Our Users Say</h2>
-          <p className="reviews-subtitle">Join thousands of satisfied users breaking down language barriers</p>
+          <p className="reviews-subtitle">Join thousands of satisfied users discovering stories in multiple languages</p>
           <div className="reviews-grid">
             <div className="review-card">
               <div className="review-stars">★★★★★</div>
               <p className="review-text">
-                "Echolex has completely transformed how I communicate with my international clients. The real-time translation is incredibly accurate and natural. Best investment I've made!"
+                "Echolex has completely transformed how I access books. The human-narrated audio in multiple languages is incredibly natural and engaging. Best investment I've made!"
               </p>
               <div className="review-author">
                 <div className="review-avatar">SM</div>
@@ -239,7 +235,7 @@ function Home() {
             <div className="review-card">
               <div className="review-stars">★★★★★</div>
               <p className="review-text">
-                "As a traveler, Echolex is a game-changer. I can now have meaningful conversations in any country without worrying about language barriers. It's like having a personal translator!"
+                "As someone who loves stories from different cultures, Echolex is a game-changer. I can now enjoy books in multiple languages, all narrated beautifully by real people. It's like having a personal library in every language!"
               </p>
               <div className="review-author">
                 <div className="review-avatar">JK</div>
@@ -252,7 +248,7 @@ function Home() {
             <div className="review-card">
               <div className="review-stars">★★★★★</div>
               <p className="review-text">
-                "The accuracy of translations is impressive. I use it daily for work meetings with international teams, and it never fails to deliver clear, context-aware translations."
+                "The quality of narration is impressive. I listen to books daily in different languages, and the human narrators bring each story to life beautifully."
               </p>
               <div className="review-author">
                 <div className="review-avatar">AL</div>
@@ -265,7 +261,7 @@ function Home() {
             <div className="review-card">
               <div className="review-stars">★★★★★</div>
               <p className="review-text">
-                "Echolex helped me connect with my grandparents who speak a different language. The emotional nuance it captures is remarkable. Truly brings families together!"
+                "Echolex helped me share stories with my family in their native language. The human narration captures all the emotional nuances perfectly. Truly brings families together!"
               </p>
               <div className="review-author">
                 <div className="review-avatar">MC</div>
@@ -278,7 +274,7 @@ function Home() {
             <div className="review-card">
               <div className="review-stars">★★★★★</div>
               <p className="review-text">
-                "I've tried many translation apps, but Echolex stands out. The real-time feature works flawlessly, and the understanding of context is unmatched. Highly recommend!"
+                "I've tried many audiobook apps, but Echolex stands out. The quality of human narration and the variety of languages available is unmatched. Highly recommend!"
               </p>
               <div className="review-author">
                 <div className="review-avatar">ER</div>
@@ -291,7 +287,7 @@ function Home() {
             <div className="review-card">
               <div className="review-stars">★★★★★</div>
               <p className="review-text">
-                "The app is intuitive and the translations are spot-on. It's become an essential tool for my remote work with global teams. Can't imagine working without it now!"
+                "The app is intuitive and the audiobook library is extensive. It's become an essential part of my daily routine. Can't imagine my day without it now!"
               </p>
               <div className="review-author">
                 <div className="review-avatar">DT</div>
@@ -308,8 +304,8 @@ function Home() {
       {/* CTA Section */}
       <section className="cta">
         <div className="container">
-          <h2>Ready to Break Down Language Barriers?</h2>
-          <p>Join thousands of users connecting across languages with Echolex. Start understanding any language today.</p>
+          <h2>Ready to Explore Stories in Any Language?</h2>
+          <p>Join thousands of users discovering books in multiple languages with Echolex. Start your journey today.</p>
           <div className="cta-buttons">
             <a href="#" className="app-store-btn google-play" aria-label="Get it on Google Play">
               <img src="/images/google-play.png" alt="Google Play" className="app-store-icon" />
@@ -347,8 +343,8 @@ function Home() {
               </div>
               <p className="footer-tagline">Listen. Understand. Any Language.</p>
               <p className="footer-description">
-                Breaking down language barriers with cutting-edge AI technology. 
-                Connect with the world in any language, anywhere, anytime.
+                An ocean of knowledge, spoken in any language. 
+                Discover books narrated by real people in multiple languages.
               </p>
               <div className="social-links">
                 <a href="#" className="social-link social-facebook" aria-label="Facebook">
